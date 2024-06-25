@@ -1,0 +1,37 @@
+.nev{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+li{
+    border-radius: 20%;
+}
+
+li input{
+    justify-content: center;
+    
+    border-color: transparent;
+    fill: darkgray;
+}
+
+.fa-lg{
+    
+    color:rgb(88, 90, 83);
+}
+
+.fa-lg:active{
+    color:blue
+}
+
+li:hover{
+    background-color: rgb(185, 188, 192);
+}
+
+.active-link {
+
+    border-bottom: 2px solid blue;
+    .fa-lg{
+        color: blue;
+    }
+}
